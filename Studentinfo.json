@@ -1,0 +1,24 @@
+{
+    "studentinfo": [
+        {
+            "name": "Bill Gates",
+            "rollno": 1001
+        },
+        {
+            "name": "Elon Musk",
+            "rollno": 1002
+        },
+        {
+            "name": "Kunal",
+            "rollno": 1003
+        },
+        {
+            "name": "Steve Jobs",
+            "rollno": 1005
+        },
+        {
+            "name": "Mark Zuckerberg",
+            "rollno": 1006
+        }
+    ]
+}
