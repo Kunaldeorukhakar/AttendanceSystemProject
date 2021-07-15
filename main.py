@@ -95,7 +95,7 @@ def saveimage():
     print(imgname)
     cam = cv2.VideoCapture(0)
     
-    cv2.namedWindow("test")
+    cv2.namedWindow("Newuser")
     # img_counter = 0
 
     while True:
@@ -104,7 +104,7 @@ def saveimage():
             print("failed to grab frame")
             break
         cv2.putText(frame,"Press SPACE to save & Esc to close",(20,20),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(255,0,0),1)
-        cv2.imshow("test", frame)
+        cv2.imshow("Newuser", frame)
         k = cv2.waitKey(1)
         if k%256 == 27:
             # ESC pressed
